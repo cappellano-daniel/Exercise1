@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #e3f1f7;
+    margin: 250px auto;
+    max-width: 400px;
+    min-width: 250px;
+    box-shadow: 10px 10px 13px #849ba7;
+    
+}
+
+h2 {
+    text-align: center;
+    margin: 0%;
+    padding-top: 30px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#block1 {
+    height: 500px;
+    width: 250px;
+    
+}
+
+#block2 {
+    height: 400px;
+    background-color: white;
+}
+
+#email {
+    width: 100%;
+    margin-top: 35px;
+    max-width: 85%;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    height: 25px;
+
+}
+
+#password {
+    width: 85%;
+    margin-top: 30px;
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    display: flexbox;
+    height: 25px;
+}
+
+
+
+.userinput {
+    margin: 35px 20px 35px 20px;
+    padding: 0 20px;
+    width: 92%;
+}
+
+.sibutton {
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+#forgot {
+  background-color: white;
+  border: none;
+    
+}
+
+.inputwithbutton {
+    position: relative;
+    
+}
+
+.inputwithbutton button {
+    position: absolute;
+    right: 55px;
+    top: 35px;
+    padding-right: 0;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sibutton {
+    color: white;
+}
+
+.sibutton :hover {
+    color: #3498db;
+}
+
+#account {
+    position: relative;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/*The light blue background is #e3f1f7
+The blue button is #3498db
+The salmon background for option 2 is #ed7577 and the button is #7dd9d5*/
